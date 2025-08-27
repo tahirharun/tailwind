@@ -3,7 +3,6 @@ import DynamicStyledComponent from "./DynamicStyleComponents"
 import ThemedComponent from "./ThemedComponets"
 import UserForm from "./UserForm"
 import { useState } from "react"
-import BookList from "./BookList"
 import ComponentA from "./ComponentA"
 function App(){
   return(
@@ -12,7 +11,6 @@ function App(){
     <DynamicStyledComponent />
      <UserForm/>
      <Rejester />
-     <BookList />
      <ComponentA />
     </>
   )
